@@ -1,0 +1,1 @@
+docker build . -t webappen -f Dockerfile
