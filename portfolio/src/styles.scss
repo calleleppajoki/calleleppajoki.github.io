@@ -35,7 +35,8 @@ $portfolio-theme: mat-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #121419;
+    // background-color: #121419; // Old, before colorpicking.
+    background-color: #1e1e1e;
 }
 
 p, ul, h1 {
@@ -45,5 +46,22 @@ p, ul, h1 {
 a {
     color: #3A3AAA;
 }
+
+.base-color-1 {
+  color: #59595b;
+}
+
+.base-color-2 {
+  color: #3b3c3d;
+}
+
+.base-color-3 {
+  color: #303032;
+}
+
+.base-color-4 {
+  color: #1e1e1e;
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

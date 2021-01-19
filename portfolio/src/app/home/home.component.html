@@ -3,3 +3,23 @@
 <mat-card>
     <p>Hej hopp här går det fort.</p>
 </mat-card>
+
+ <p>
+    {{ dataSource | json }}
+</p>
+
+<hr>
+
+<!-- <ul>
+    <li *ngFor="let item of dataSource">
+      {{ item | json }}
+    </li>
+</ul> -->
+
+
+<mat-card *ngFor="let item of dataSource">
+    <p>
+        {{item.name}}
+    </p>
+</mat-card>
+

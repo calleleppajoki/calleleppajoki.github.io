@@ -1,9 +1,13 @@
 .container {
-    background-color: gainsboro;
+    // background-color: gainsboro; // Old, before color picker
+    background-color: #303032;
     text-align: center;
     margin-bottom: 20px;
+    //width: 20%;
+    align-content: center;
 }
 
 a {
     padding: 32px;
+    color: #5395d4;
 }

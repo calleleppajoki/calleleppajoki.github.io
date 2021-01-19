@@ -31,73 +31,29 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 42, vars: 0, consts: [[1, "SectionTitle"], [1, "mat-display-1"], [1, "AboutText"], [1, "mat-body"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 13, vars: 0, consts: [[1, "CenterText"], [1, "ThenAlignLeft"], [1, "mat-display-1"], [1, "mat-body"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "About");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "About");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Amateur chef, homebrewer, gamedev & code gardener, not that great guitar shredder for 20+ years, and continuously failing to take time to write.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Currently working on working on:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Currently working on:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Ossific Sound, a minimaist label for my music projects.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris cursus mattis molestie a iaculis. Id consectetur purus ut faucibus pulvinar elementum. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Interdum posuere lorem ipsum dolor sit amet. Id faucibus nisl tincidunt eget nullam non nisi. Egestas congue quisque egestas diam in arcu cursus. Velit aliquet sagittis id consectetur purus. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Orci sagittis eu volutpat odio facilisis mauris. Sed elementum tempus egestas sed sed risus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Eu feugiat pretium nibh ipsum. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Egestas pretium aenean pharetra magna ac placerat. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Neque convallis a cras semper. Vel facilisis volutpat est velit egestas. Suspendisse in est ante in. Dolor sit amet consectetur adipiscing. Pulvinar mattis nunc sed blandit libero volutpat sed. In metus vulputate eu scelerisque felis imperdiet.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Ipsum faucibus vitae aliquet nec. Lectus urna duis convallis convallis tellus id. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Porttitor leo a diam sollicitudin. Donec adipiscing tristique risus nec feugiat in. Tincidunt nunc pulvinar sapien et ligula ullamcorper. Dignissim convallis aenean et tortor at risus. Quis eleifend quam adipiscing vitae proin sagittis. Purus sit amet volutpat consequat mauris nunc congue nisi. Id cursus metus aliquam eleifend. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Libero volutpat sed cras ornare arcu dui vivamus. Rutrum quisque non tellus orci ac auctor augue. Ac feugiat sed lectus vestibulum mattis ullamcorper velit.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Tortor condimentum lacinia quis vel eros donec. Amet est placerat in egestas erat imperdiet sed euismod nisi. Sit amet cursus sit amet dictum sit amet. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Lacus luctus accumsan tortor posuere ac ut consequat semper. Ullamcorper sit amet risus nullam eget. Ipsum consequat nisl vel pretium lectus quam id. At auctor urna nunc id cursus metus aliquam eleifend mi. Morbi non arcu risus quis varius quam. Placerat orci nulla pellentesque dignissim enim. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Dignissim sodales ut eu sem integer vitae justo. Elit pellentesque habitant morbi tristique senectus et. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Nunc sed augue lacus viverra vitae congue eu consequat.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Sit amet volutpat consequat mauris nunc congue nisi vitae. Volutpat est velit egestas dui id ornare arcu. Purus viverra accumsan in nisl. Volutpat est velit egestas dui id ornare arcu odio ut. Congue mauris rhoncus aenean vel elit. Scelerisque purus semper eget duis at tellus at. Ac auctor augue mauris augue neque gravida. Tempor orci eu lobortis elementum nibh tellus molestie. Scelerisque eleifend donec pretium vulputate sapien nec. Vel eros donec ac odio tempor orci dapibus ultrices in.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Quisque egestas diam in arcu. Non curabitur gravida arcu ac tortor dignissim. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Interdum varius sit amet mattis vulputate enim nulla. Penatibus et magnis dis parturient montes nascetur ridiculus. Tristique senectus et netus et. Viverra mauris in aliquam sem fringilla. Urna cursus eget nunc scelerisque viverra. In ante metus dictum at tempor commodo ullamcorper a lacus. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Malesuada nunc vel risus commodo viverra maecenas accumsan. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. At risus viverra adipiscing at in tellus integer feugiat. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Et malesuada fames ac turpis.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Eget velit aliquet sagittis id consectetur purus ut faucibus. Orci a scelerisque purus semper eget duis. Venenatis urna cursus eget nunc scelerisque viverra. Lorem donec massa sapien faucibus et. Nisl rhoncus mattis rhoncus urna. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Imperdiet nulla malesuada pellentesque elit eget gravida. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Aenean et tortor at risus. Feugiat pretium nibh ipsum consequat nisl vel. Vitae nunc sed velit dignissim sodales ut eu. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Nisl suscipit adipiscing bibendum est ultricies. Porttitor rhoncus dolor purus non enim praesent. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Sed turpis tincidunt id aliquet risus feugiat in ante. Pharetra sit amet aliquam id diam maecenas ultricies. Pharetra pharetra massa massa ultricies mi quis hendrerit.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Justo eget magna fermentum iaculis eu non. Integer vitae justo eget magna fermentum iaculis eu non. Auctor augue mauris augue neque gravida in fermentum et. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. A cras semper auctor neque vitae tempus. Nam libero justo laoreet sit amet cursus. Est ante in nibh mauris cursus mattis. Et ultrices neque ornare aenean. In nisl nisi scelerisque eu ultrices vitae auctor. Odio euismod lacinia at quis.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Nunc id cursus metus aliquam eleifend mi. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed velit dignissim sodales ut eu sem. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Elit eget gravida cum sociis natoque penatibus et magnis. Morbi tincidunt augue interdum velit euismod in pellentesque massa. Molestie ac feugiat sed lectus vestibulum. Congue quisque egestas diam in. Est ante in nibh mauris cursus mattis molestie a. At consectetur lorem donec massa sapien faucibus et molestie ac. Tristique nulla aliquet enim tortor at auctor. In nibh mauris cursus mattis. Nisi lacus sed viverra tellus in hac habitasse platea. Elementum curabitur vitae nunc sed velit dignissim.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Dictum non consectetur a erat nam at lectus urna duis. Ac auctor augue mauris augue neque gravida. Enim diam vulputate ut pharetra sit amet. Sapien et ligula ullamcorper malesuada proin libero nunc. Quis risus sed vulputate odio ut enim blandit. Ullamcorper dignissim cras tincidunt lobortis. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Viverra ipsum nunc aliquet bibendum. Viverra suspendisse potenti nullam ac tortor. Pharetra vel turpis nunc eget lorem dolor. Varius duis at consectetur lorem donec. Pretium aenean pharetra magna ac. Ut consequat semper viverra nam libero justo laoreet sit. Aenean et tortor at risus viverra adipiscing at in. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Mi sit amet mauris commodo quis imperdiet massa. Hac habitasse platea dictumst vestibulum rhoncus est.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Pretium fusce id velit ut tortor pretium viverra suspendisse. Lectus mauris ultrices eros in cursus turpis massa. Amet massa vitae tortor condimentum. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. Nunc aliquet bibendum enim facilisis. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Dignissim suspendisse in est ante in nibh. Lacus viverra vitae congue eu consequat ac felis. Nisl pretium fusce id velit ut tortor. In hac habitasse platea dictumst quisque. Egestas maecenas pharetra convallis posuere morbi leo urna.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Auctor neque vitae tempus quam. Sit amet est placerat in. Urna nec tincidunt praesent semper feugiat nibh. Venenatis lectus magna fringilla urna porttitor rhoncus. Quis hendrerit dolor magna eget. Amet risus nullam eget felis eget nunc lobortis. Ultricies mi eget mauris pharetra et ultrices neque ornare. Vulputate sapien nec sagittis aliquam malesuada bibendum. A erat nam at lectus. Velit euismod in pellentesque massa placerat duis. Fermentum leo vel orci porta non pulvinar. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Nunc consequat interdum varius sit.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "At tempor commodo ullamcorper a lacus vestibulum sed arcu. Sed id semper risus in hendrerit. Eu scelerisque felis imperdiet proin fermentum leo. Faucibus nisl tincidunt eget nullam non nisi est. Aliquam malesuada bibendum arcu vitae. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Placerat duis ultricies lacus sed turpis tincidunt. Massa sed elementum tempus egestas sed sed risus pretium quam. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Vel eros donec ac odio tempor orci dapibus ultrices in. Porta non pulvinar neque laoreet suspendisse interdum consectetur. A diam maecenas sed enim ut sem.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Facilisis gravida neque convallis a cras semper auctor. Lacus sed turpis tincidunt id aliquet. Molestie at elementum eu facilisis sed odio morbi quis. At quis risus sed vulputate odio ut enim blandit volutpat. Proin libero nunc consequat interdum varius sit. Nibh tellus molestie nunc non blandit massa enim nec dui. Viverra justo nec ultrices dui sapien eget mi. Gravida cum sociis natoque penatibus et magnis. Posuere lorem ipsum dolor sit amet. Amet massa vitae tortor condimentum. Morbi tristique senectus et netus et. Sapien pellentesque habitant morbi tristique senectus. Quisque egestas diam in arcu cursus euismod quis viverra. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Lacus vel facilisis volutpat est velit egestas dui id ornare. Auctor elit sed vulputate mi sit amet mauris commodo quis. Sed blandit libero volutpat sed. Pellentesque nec nam aliquam sem. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Morbi blandit cursus risus at ultrices mi tempus. Tortor at auctor urna nunc. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat pretium nibh ipsum consequat nisl vel pretium. Ac ut consequat semper viverra nam libero justo. Ultrices neque ornare aenean euismod elementum. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Cras ornare arcu dui vivamus arcu felis bibendum.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Ossific Sound, a minimaist label for my music projects.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhYm91dC5jb21wb25lbnQuc2NzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".CenterText[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n.ThenAlignLeft[_ngcontent-%COMP%] {\n  width: 500px;\n  display: inline-block;\n  text-align: left;\n}\n\np[_ngcontent-%COMP%], ul[_ngcontent-%COMP%], li[_ngcontent-%COMP%], h1[_ngcontent-%COMP%] {\n  text-align: left;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Fib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUksa0JBQUE7QUFBSjs7QUFHQTtFQUNJLFlBQUE7RUFDQSxxQkFBQTtFQUNBLGdCQUFBO0FBQUo7O0FBR0E7RUFDSSxnQkFBQTtBQUFKIiwiZmlsZSI6ImFib3V0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLkNlbnRlclRleHQge1xuICAgIFxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLlRoZW5BbGlnbkxlZnQge1xuICAgIHdpZHRoOiA1MDBweDtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxucCwgdWwsIGxpLCBoMSB7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AboutComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -121,17 +77,39 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/card */ "Wp6s");
+/* harmony import */ var _assets_posts_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/posts.json */ "jpLM");
+var _assets_posts_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/posts.json */ "jpLM", 1);
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/card */ "Wp6s");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
 
 
 
+
+
+function HomeComponent_mat_card_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const item_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", item_r1.name, " ");
+} }
+// NOTE: need to have "resolveJsonModule": true in tsConfig.ts for this to work.
+// And the json-typings.d.ts ?
 class HomeComponent {
-    constructor() { }
+    constructor() {
+        this.dataSource = [];
+        this.dataSource = _assets_posts_json__WEBPACK_IMPORTED_MODULE_1___namespace;
+        // this.dataSource = ELEMENT_DATA; // DEBUG.
+    }
     ngOnInit() {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 5, vars: 0, template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 10, vars: 4, consts: [[4, "ngFor", "ngForOf"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "home works!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -140,7 +118,18 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Hej hopp h\u00E4r g\u00E5r det fort.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5zY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](7, "json");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, HomeComponent_mat_card_9_Template, 3, 1, "mat-card", 0);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](7, 2, ctx.dataSource), "\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.dataSource);
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["JsonPipe"]], styles: [".CenterText[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n.ThenAlignLeft[_ngcontent-%COMP%] {\n  width: 500px;\n  display: inline-block;\n  text-align: left;\n}\n\np[_ngcontent-%COMP%], ul[_ngcontent-%COMP%], li[_ngcontent-%COMP%], h1[_ngcontent-%COMP%] {\n  text-align: left;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFSSxrQkFBQTtBQUFKOztBQUdBO0VBQ0ksWUFBQTtFQUNBLHFCQUFBO0VBQ0EsZ0JBQUE7QUFBSjs7QUFHQTtFQUNJLGdCQUFBO0FBQUoiLCJmaWxlIjoiaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5DZW50ZXJUZXh0IHtcbiAgICBcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5UaGVuQWxpZ25MZWZ0IHtcbiAgICB3aWR0aDogNTAwcHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG59XG5cbnAsIHVsLCBsaSwgaDEge1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -416,6 +405,17 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 
 /***/ }),
 
+/***/ "jpLM":
+/*!*******************************!*\
+  !*** ./src/assets/posts.json ***!
+  \*******************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"name\":\"Teufelswerk\",\"date\":\"2021-01-19\",\"content\":\"Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.\"},{\"name\":\"Leo Deschain\",\"date\":\"2021-02-19\",\"content\":\"Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.\"},{\"name\":\"Bollburk\",\"date\":\"2021-02-28\",\"content\":\"Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.\"}]");
+
+/***/ }),
+
 /***/ "kWWo":
 /*!********************************************!*\
   !*** ./src/app/navbar/navbar.component.ts ***!
@@ -448,7 +448,7 @@ NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".container[_ngcontent-%COMP%] {\n  background-color: gainsboro;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\na[_ngcontent-%COMP%] {\n  padding: 32px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL25hdmJhci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtBQUNKOztBQUVBO0VBQ0ksYUFBQTtBQUNKIiwiZmlsZSI6Im5hdmJhci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IGdhaW5zYm9ybztcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cblxuYSB7XG4gICAgcGFkZGluZzogMzJweDtcbn0iXX0= */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".container[_ngcontent-%COMP%] {\n  background-color: #303032;\n  text-align: center;\n  margin-bottom: 20px;\n  align-content: center;\n}\n\na[_ngcontent-%COMP%] {\n  padding: 32px;\n  color: #5395d4;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL25hdmJhci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtFQUVBLHFCQUFBO0FBREo7O0FBSUE7RUFDSSxhQUFBO0VBQ0EsY0FBQTtBQURKIiwiZmlsZSI6Im5hdmJhci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIC8vIGJhY2tncm91bmQtY29sb3I6IGdhaW5zYm9ybzsgLy8gT2xkLCBiZWZvcmUgY29sb3IgcGlja2VyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzMwMzAzMjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICAvL3dpZHRoOiAyMCU7XG4gICAgYWxpZ24tY29udGVudDogY2VudGVyO1xufVxuXG5hIHtcbiAgICBwYWRkaW5nOiAzMnB4O1xuICAgIGNvbG9yOiAjNTM5NWQ0O1xufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NavbarComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
