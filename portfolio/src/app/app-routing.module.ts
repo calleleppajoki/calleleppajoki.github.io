@@ -15,3 +15,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+// TODO: Mobile routes:
+// https://dev.to/anoushnet/going-desktop-to-mobile-view-by-configuring-the-angular-router-4087
