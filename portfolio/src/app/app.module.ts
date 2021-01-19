@@ -20,10 +20,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     AboutComponent
   ],
-  exports: [
-    MatCardModule
-  ],
   imports: [
+    MatCardModule,
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule
