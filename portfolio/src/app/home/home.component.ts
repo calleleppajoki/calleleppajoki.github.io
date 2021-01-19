@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import * as content from "../../assets/posts.json";
+import content from "../../assets/posts.json";
 // NOTE: need to have "resolveJsonModule": true in tsConfig.ts for this to work.
-// And the json-typings.d.ts ?
+// And the json-typings.d.ts and the other two conig things in tsConfig.ts
 
 @Component({
   selector: 'app-home',
@@ -13,13 +13,12 @@ export class HomeComponent implements OnInit {
   dataSource: NewsPost[] = [];
 
   constructor() { 
-    this.dataSource = content;
+    this.dataSource = content as NewsPost[];
     // this.dataSource = ELEMENT_DATA; // DEBUG.
   }
 
   ngOnInit(): void {
   }
-
 }
 
 export interface NewsPost {

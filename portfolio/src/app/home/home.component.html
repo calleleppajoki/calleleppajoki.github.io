@@ -1,25 +1,24 @@
-<p>home works!</p>
+<!-- <p>
+    {{ dataSource[0] | json }}
+    <hr>
+</p> -->
 
-<mat-card>
-    <p>Hej hopp här går det fort.</p>
-</mat-card>
-
- <p>
-    {{ dataSource | json }}
-</p>
-
-<hr>
-
-<!-- <ul>
-    <li *ngFor="let item of dataSource">
-      {{ item | json }}
-    </li>
-</ul> -->
-
-
-<mat-card *ngFor="let item of dataSource">
-    <p>
-        {{item.name}}
-    </p>
-</mat-card>
+<div class="CenterText">
+    <div class="ThenAlignLeft">
+        <h1 class="mat-display-1">What's happening?</h1>
+    
+        <mat-card class="card-style" *ngFor="let item of dataSource">
+            <span class="card-title">
+                {{ item.name }}
+            </span>
+            <br>
+            <span class="card-date">
+                {{ item.date }}
+            </span>
+            <p>
+                {{ item.content }}
+            </p>
+        </mat-card>
+    </div>
+</div>
 
