@@ -8,3 +8,4 @@ Longer term todo:
   - Static Blog Engine
   - Select fonts
   - Actual 404? Or is it better to just go to "home"
+  - tsConfig.json there's one error thingy.
