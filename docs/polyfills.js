@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /usr/src/workspace/portfolio/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /Users/calle/Documents/calleleppajoki.github.io/portfolio/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
