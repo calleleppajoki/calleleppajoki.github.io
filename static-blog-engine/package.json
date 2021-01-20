@@ -1,0 +1,21 @@
+{
+  "name": "static-blog-engine",
+  "version": "1.0.0",
+  "description": "Transforms md content into json files with html content, modified for calleleppajoki.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calle Leppäjoki",
+  "license": "ISC",
+  "bin": {
+    "hello": "./index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "front-matter": "^3.1.0",
+    "marked": "^1.0.0",
+    "yargs": "^13.2.4"
+  }
+}
