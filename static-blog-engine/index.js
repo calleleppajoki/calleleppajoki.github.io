@@ -24,6 +24,7 @@ const options = yargs
 // #########################
 
 Init();
+GenerateNewsPosts();
 // GenerateBands();
 // GenerateReleases();
 // GenerateArchiveFrontPageAndMetadata();
@@ -35,10 +36,49 @@ Exit();
 
 function Init()
 {
+    // TODO: skipping argv for environment.
+    options.e = "prod";
+    const greeting = chalk.white.bold("\nEnvironment: " + options.e + ", hardcoded");
 
+    const boxenOptions = {
+        padding: 1,
+        margin: 1,
+        borderStyle: "round",
+        borderColor: "green",
+        backgroundColor: "#555555"
+       };
+
+    const boll = chalk.white("\n\nEnvironment is prod.\nContent will end up in /portfolio/src/assets/");
+    const warning = chalk.red.bold("\n\nRemember to git PULL\nbefore Push!\nDon't Overwrite Content!!\n");
+    const msgBox = boxen( greeting + boll + warning, boxenOptions );
+    
+    console.log(msgBox);
 }
 
-function Init2()
+function GenerateNewsPosts()
+{
+    var readPath = "../content/";
+    var writePath =  GetWritePath(); 
+    var files = fs.readdirSync(readPath); 
+    var posts = [];
+
+    files.forEach(function (file) {
+        var contents = fs.readFileSync(readPath + "/" + file, 'utf8');
+
+        var markdown = frontmatter(contents);
+        var parsedHtml = marked.parse(markdown.body);
+
+        posts.push({ 
+            name: markdown.attributes["title"], // TODO: change name to title, needs change in site as well.
+            date: markdown.attributes["date"],
+            content: parsedHtml
+        });
+    });
+
+    fs.writeFileSync(writePath + "posts.json", JSON.stringify(posts));
+}
+
+function Init_Old()
 {
     if (options.e !== "prod") {
         options.e = "test";
@@ -83,7 +123,8 @@ function IsProductionEnvironment()
 function GetWritePath()
 {
     // Is this needed?
-    return IsProductionEnvironment() ? "../ossific-app/src/assets/content/" : "../content/";
+    //return IsProductionEnvironment() ? "../ossific-app/src/assets/content/" : "../content/";
+    return "../portfolio/src/assets/"
 }
 
 function GenerateArchiveFrontPageAndMetadata()

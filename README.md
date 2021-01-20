@@ -9,3 +9,4 @@ Longer term todo:
   - Select fonts
   - Actual 404? Or is it better to just go to "home"
   - tsConfig.json there's one error thingy.
+  - Date Formatting in Home

@@ -1,5 +1,5 @@
 <!-- <p>
-    {{ dataSource[0] | json }}
+    {{ dataSource | json }}
     <hr>
 </p> -->
 
@@ -15,9 +15,7 @@
             <span class="card-date">
                 {{ item.date }}
             </span>
-            <p>
-                {{ item.content }}
-            </p>
+            <div [innerHTML]="item.content"></div>
         </mat-card>
     </div>
 </div>
